@@ -1,7 +1,7 @@
 # ARP-Spoofing-Target
 
 ---
-❌ Do not use to harm, use only in educational purpose only
+❌ Use only in educational purpose only
 ---
 
 # Purpose
