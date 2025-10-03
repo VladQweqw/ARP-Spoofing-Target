@@ -44,7 +44,7 @@ class Spoofer:
         frame = ether / arp
 
         # send the frame, and save answered and unanswered messages in variales
-        r, u = srp(frame, timeout=1, iface=self.current_iface, verbose=False)
+        r, u = srp(frame, timeout=5, iface=self.current_iface, verbose=False)
 
         # iterate over and print devices in network
         # also save results in a variable
