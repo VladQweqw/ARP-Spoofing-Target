@@ -1,2 +1,2 @@
-python
-scapy
+psutil==7.0.0
+scapy==2.6.1
