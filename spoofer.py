@@ -76,7 +76,9 @@ class Spoofer:
         self.network_IP = network_IP
 
     def display_menu(self):
-        print("=== ARP Target Spoofer ===\n")
+        print("============== ARP Target Spoofer ==============")
+        print("=>> Coded by Poienariu Vlad <<=\n")
+
         # display network interfaces
         self.show_network_ifaces()
         iface_idx = int(input("\nChoose interface:\n> ")) - 1
