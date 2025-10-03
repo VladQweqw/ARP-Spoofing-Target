@@ -4,9 +4,16 @@
 ❌ Use only in educational purpose only
 ---
 
-# Purpose
+# 📚 What is ARP Spoofing
+- ARP spoofing is a type of attack in which a malicious actor sends falsified ARP (Address Resolution Protocol) messages over a local area network. This results in the linking of an attacker's MAC address with the IP address of a legitimate computer or server on the network.
+
+
+# 🎯 Purpose
 - This program was made only for educational purpose, everyone can use it or reproduce it for FREE, has features like networks scanning, automatically identify interfaces
 - Coded by Poienariu Vlad
+
+# 🔑 How it works
+-  It works by scanning the network by sending a broadcast Layer 2 as well as an ARP with protocol destination as network IP, after scanning the user can choose the target and prenet to be whoever he wants by using the UI
 
 # 💻 How to use
   1. `pip install requirements.txt`
